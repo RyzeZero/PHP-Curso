@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="_css/estilo.css"
+    />
+    <title>Calculador de Raiz</title>
+  </head>
+  <body>
+    <div>
+      <form action="aula10.php" method="get">
+        Numero :<input type="number" name="number" id="num" />
+        <fieldset>
+          <label for="text">Operação</label>
+
+          <input type="radio" name="operation" value="1" id="dobro" checked />
+          <label for="text">Dobro</label>
+          <input type="radio" name="operation" value="2" id="cubo" />
+          <label for="text">Cubo</label>
+          <input type="radio" name="operation" value="3" id="raiz" />
+          <label for="text">Raiz</label>
+        </fieldset>
+        <input type="submit" value="calculate" />
+      </form>
+    </div>
+  </body>
+</html>

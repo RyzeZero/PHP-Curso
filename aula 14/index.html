@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="_css/estilo.css"
+    />
+    <title>Contador </title>
+  </head>
+  <body>
+    <div>
+      <form action="aula14.php" method="get">
+        <label for="text"> Primeiro Numero:</label>
+        <input type="number" name="numberUser" id="num" /></br>
+        <label for="text"> Segundo Final :</label>
+        <input type="number" name="numberEnd" id="num" /></br>
+        <fieldset>
+          <label for="text">Adição</label>
+          <input type="radio" name="operation" value="1" id="adicao" checked></br>
+          <label for="text">Subtração</label>
+          <input type="radio" name="operation" value="2" id="subtracao"></br>
+          <label for="text">Multiplicação</label>
+          <input type="radio" name="operation" value="3" id="multiplicacao"></br>
+          <label for="text">Divisão</label>
+          <input type="radio" name="operation" value="4" id="divisao"></br>
+        </fieldset>
+        <input type="submit" value="Avançar" />
+      </form>
+    </div>
+  </body>
+</html>
